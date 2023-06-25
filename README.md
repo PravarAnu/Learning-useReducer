@@ -47,21 +47,21 @@ I made this repository to understand the useReducer hook by creating a simple To
 
 ## I am hoping that your folder structre looks like this after creating a react app:
 
-    ```shell
-    |-node_modules
+```shell
+|-node_modules
 
-    |-public
-    |   |-index.html
+|-public
+|   |-index.html
 
-    |-src
-    |   |-components
-    |   |-app.js
-    |   |-index.js
+|-src
+|   |-components
+|   |-app.js
+|   |-index.js
 
-    |-.gitignore
-    |-package.lock.json
-    |-package.json
-    ```
+|-.gitignore
+|-package.lock.json
+|-package.json
+```
 
 
 
