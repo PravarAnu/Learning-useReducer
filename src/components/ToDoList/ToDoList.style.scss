@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.todo-component{
+    text-align: center;
+    max-width: 1980px;
+}
+
+h2{
+    margin: 1rem auto 2rem auto;
+}
+
+form {
+    margin: 6rem auto 2rem auto;
+    text-align: center;
+    
+    #add-task-input {
+        width: 280px;
+        padding: 12px;
+        font-size: 16px;
+        border: 2px solid black;
+    }
+
+    #add-task-submit {
+        background-color: #0959B8;
+        padding: 12px;
+        font-size: 16px ;
+        color: #ffffff;
+    }
+}
+
+
+#tasks{
+    width: 308px;
+    padding: 12px;
+    font-size: 18px ;
+    font-weight: 600;
+    margin: auto;
+    text-align: left;
+    background-color:#D9D9D9 ;
+    margin: 5px auto;
+    
+
+    input{
+        width: 1.25rem;
+        height: 1.25rem;
+        border: 5px solid white;
+        background-color: #060606;
+    }
+
+    .task{
+        display: inline-block;
+        padding-left: 12px;
+        min-width: 200px;
+    }
+
+    .task-delete{
+        width: 20px;
+        display: inline-block;
+        position: relative;
+        background-color: #FF0808;
+        text-align: center;
+        left: 24px;
+    }
+}
+
+.horizontal-line{
+    margin: 2rem auto 0 auto;
+    width: 200px;
+    border: 1px solid rgb(56, 55, 55);
+}
+
+
+@media (min-width: 960px) {
+    .all-tasks{
+        display: flex;
+        justify-content: space-around;
+
+        .completed-task{
+
+            margin-left: 50px;
+        }
+    }
+    .horizontal-line{
+        display: none;
+    }
+
+}
